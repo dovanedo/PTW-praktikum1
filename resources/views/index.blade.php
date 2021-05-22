@@ -125,46 +125,15 @@ Laravel mengubah pengembangan website menjadi lebih elegan, ekspresif, dan menye
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="title text-center">Contact Us</h3>
+            <h3 class="title text-center">Profile</h3>
             <div class="titleHR"><span></span></div>
 
-            <form role="form" name="ajax-form" id="ajax-form" action="php/contact.php" method="post" class="form-main">
-              <div class="col-xs-12">
-                <div class="row">            
-                  <div class="form-group col-xs-6">
-                    <label for="name2">Name</label>
-                    <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="Name">
-                    <div class="error" id="err-name" style="display: none;">Please enter name</div>
-                  </div>
-                  <div class="form-group col-xs-6">
-                    <label for="email2">Email</label>
-                    <input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail">
-                    <div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div> 
-                  </div>
-                </div>
-                <div class="row">            
-                  <div class="form-group col-xs-12">
-                    <label for="message2">Message</label>
-                    <textarea class="form-control" id="message2" name="message" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Message') this.value=''">Message</textarea>
-                    <div class="error" id="err-message" style="display: none;">Please enter message</div>
-                  </div>
-                </div> 
-                <div class="row">
-                  <div class="col-md-8 col-md-offset-2">
-                    <p class="text-center con_sub_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren.</p>
-                  </div>
-                </div>
-                <div class="row">            
-                  <div class="col-xs-12 text-center">
-                    <div id="ajaxsuccess">E-mail was successfully sent.</div>
-                    <div class="error" id="err-form" style="display: none;">There was a problem validating the form please check!</div>
-                    <div class="error" id="err-timedout">The connection to the server timed out!</div>
-                    <div class="error" id="err-state"></div>
-                    <button type="submit" class="btn btn-custom" id="send">Submit</button>
-                  </div>
-                </div>
-              </div>  
-            </form>
+            <center>
+        <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="{{ URL::asset('images/profile.jpg') }}" name="aboutme" width="140" height="140" class="img-circle"></a>
+        <h3>Dovan Edo Aji Pratama</h3>
+        <em>1461900047</em>
+		</center>
+
           </div> <!-- end col-md-12 -->
         </div> <!-- end row -->
       </div> <!-- container -->
@@ -183,7 +152,7 @@ Laravel mengubah pengembangan website menjadi lebih elegan, ekspresif, dan menye
                   <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a>
-                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
                 </div>
               </div> <!-- end footer-content -->
             </div> <!-- end col-sm-4 -->
