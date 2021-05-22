@@ -149,10 +149,9 @@ Laravel mengubah pengembangan website menjadi lebih elegan, ekspresif, dan menye
               <div class="footer-content">
                 <h4>KEEP IN TOUCH</h4>
                 <div class="footer-socials">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-google-plus"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="https://web.facebook.com/edo.aji.104/"><i class="fa fa-facebook"></i></a>
+                  <a href="https://twitter.com/dovanedo"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/dovaneap/"><i class="fa fa-instagram"></i></a>
                 </div>
               </div> <!-- end footer-content -->
             </div> <!-- end col-sm-4 -->
@@ -161,7 +160,7 @@ Laravel mengubah pengembangan website menjadi lebih elegan, ekspresif, dan menye
                 <h4>ADDRESS</h4>
                 <p>Jl. Kalibader<br>
                 Korlap 3, Taman, Sidoarjo</p>
-                <p>+6282832597145<br>
+                <p>+6285832531480<br>
                 <a href="#">www.erflog.com</a><br>
                 info@erflog.com</p>
               </div> <!-- end footer-content -->
